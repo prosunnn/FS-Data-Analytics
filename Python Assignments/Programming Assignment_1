@@ -1,11 +1,13 @@
 ## Programming Assignment_1
 
-1. Write a Python program to print “Hello Python”?
+1.Write a Python program to print “Hello Python”?
+
 print("Hello world")
 
 
 
-2. Write a Python program to do arithmetical operations addition and division?
+2.Write a Python program to do arithmetical operations addition and division?
+
 num1 = float(input(" Please Enter the First Number: "))
 num2 = float(input(" Please Enter the Second Number: "))
 add = num1 + num2
@@ -16,6 +18,7 @@ print("The Division of {0} and {1} = {2}".format(num1, num2, div))
 
 
 3. Write a Python program to find the area of a triangle?
+
 a = float(input('Enter first side: '))  
 b = float(input('Enter second side: '))  
 c = float(input('Enter third side: '))  
@@ -26,6 +29,7 @@ print('The area of the triangle is %0.2f' %area)
 
 
 4. Write a Python program to swap two variables?
+
 x = input("Enter First Numbner X: ")
 y = input("Enter Second Numbner Y: ")
 temp = x
@@ -37,5 +41,6 @@ print('The value of y after swapping: {0}'.format(y))
 
 
 5. Write a Python program to generate a random number?
+
 import random
 print('Random Number is :',random.randint(0,100))
