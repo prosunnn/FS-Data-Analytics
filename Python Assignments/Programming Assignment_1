@@ -43,4 +43,4 @@ print('The value of y after swapping: {0}'.format(y))
 5. Write a Python program to generate a random number?
 
 import random
-print('Random Number is :',random.randint(0,100))
+print('Random Number is :',random.randint(0,499))
