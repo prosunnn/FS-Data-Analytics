@@ -1,0 +1,62 @@
+1. What is a Macro? How is it useful in excel or in your daily work?
+A macro is a set of instructions used to execute repetitive tasks.
+We can record a set of commands and then play them back with one or two keystrokes. 
+That means that we can save a lot of time when doing routine and repetitive tasks.
+
+
+
+2. What is VBA? Write its full form and briefly explain why VBA is used inexcel?
+
+VBA stands for Visual Basic Analysis. Excel VBA is Microsoft's programming language for
+Office applications such as MS-Excel, MS-Word, and MS-Access.
+
+VBA is normally a programming language of excel which is embedded in an individual Microsoft application
+i.e. Excel or Access where we can do the automation of several tasks which is also called as “MACRO” in excel.
+
+
+
+3. How do you record a macro? Write detailed steps to create a macro to automatically make the following table in bold and to create borders for it in excel.
+
+To record a macro in Excel, click the “View” tab in the Ribbon.
+Then click the “Macros” drop-down button in the “Macros” button group.
+Then select the “Record Macro…” command to open the “Record Macro” dialog box.
+In the “Record Macro” dialog box, 
+I have entered a name “Bold_Border”  for the new macro into the “Macro name” text box.
+To create a custom keyboard shortcut to use in conjunction with the “Ctrl” key, type the desired shortcut
+key letter “Q” into the text box next to the “Ctrl +” label.
+Select the name of the workbook to which to attach the macro from the “Store macro in:” drop-down.
+To record your macro’s actions, click the “OK” button and then perform the actions to record.
+Then select the cells to record the macro. Select Bold option. Select Border option.
+Then select the “Stop Recording” command.
+
+Now,  Use the shortcut key Ctrl+Q  to perform the  macros every time.
+
+
+
+4. What do you mean when we say VBA Editor?
+
+Microsoft Visual Basic for Applications (VBA) enables non-programmers to record, create, and 
+edit macros that can automate tasks in Office applications such as MS Excel.
+
+
+
+5. Briefly describe the interface of a VBA editor? What is propertieswindow? And what is watch window? How do you display thesewindows?
+
+The Visual Basic Editor displays a menu with the 4 different toolbars and the option to access the
+Customize dialog. The toolbars with a checkmark to their left are those currently displayed by Excel.
+A Watch Window in Excel is a window that floats in front of your workbook that lets you see selected 
+cells from anywhere in your workbook, or even other workbooks. This can be very helpful when you want 
+to see how changes affect cells on other tabs or that aren't within view on a large spreadsheet.
+
+Select the cells that you want to watch. To select all cells on a worksheet with formulas, on the Home
+tab, in the Editing group, click Find & Replace, click Go To Special, and then click Formulas. On the
+Formulas tab, in the Formula Auditing group, click Watch Window.
+From the View menu of the Visual Basic Editor, choose Properties window (F4).
+
+
+
+
+6. What is an immediate Window and what is it used for?
+
+Immediate window is used to test problematic or newly written code, query or change the value of a variable while running an application. 
+
