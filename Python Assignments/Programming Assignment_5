@@ -1,0 +1,69 @@
+1. Write a Python Program to Find LCM?
+
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+if(a>b):
+    min1=a
+else:
+    min1=b
+while(1):
+    if(min1%a==0 and min1%b==0):
+        print("LCM is:",min1)
+        break
+    min1=min1+1
+
+
+
+
+2. Write a Python Program to Find HCF?
+
+x = int(input( "Enter First Number: " ))
+y = int(input("Enter Second Number: "))
+if x > y:
+  x, y = y, x
+for i in range(1,x+1):
+  if x%i == 0 and y%i == 0:
+   HCF = i
+
+print("HCF of", x, "and", y, "is:", HCF)
+
+
+
+
+3. Write a Python Program to Convert Decimal to Binary, Octal and Hexadecimal?
+
+dec = int(input("Enter an integer: "))
+print("The decimal value of",dec,"is:", dec)
+print("The binary value of",dec,"is:",bin(dec))
+print("The octal value of",dec,"is:",oct(dec))
+print("The hexadecimal value of",dec,"is:",hex(dec))
+
+
+
+
+
+4. Write a Python Program To Find ASCII value of a character?
+
+ch = input("Enter any character: ")
+print("The ASCII value of char ", ch , " is: ",ord(ch))
+
+
+
+
+
+5. Write a Python Program to Make a Simple Calculator with 4 basic mathematical operations?
+
+num1= int(input('Enter your first number: '))
+num2 = int(input('Enter your second number: '))
+
+print(' Addition of {} + {} = '.format(num1, num2))
+print(num1+ num2)
+
+print('Subtraction of {} - {} = '.format(num1, num2))
+print(num1- num2)
+
+print('Multiplication of {} * {} = '.format(num1, num2))
+print(num1* num2)
+
+print('Division {} / {} = '.format(num1, num2))
+print(num1/ num2)
